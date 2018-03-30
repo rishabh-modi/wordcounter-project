@@ -1,0 +1,32 @@
+<h1>
+	This is an example of a form
+</h1>
+
+
+
+<form action="{% url 'count' %}">
+	<textarea 
+		cols="50"
+		rows="10"
+		name="fulltext">
+	</textarea>
+
+	<br/>
+
+
+<input type="submit"
+ 	   name="count"
+ 	   value="Count!"/>
+
+
+
+
+</form>
+
+<form action="{% url 'about' %}">
+	
+	<input type="submit"
+ 	   name="about"
+ 	   value="about"/>
+
+</form>
